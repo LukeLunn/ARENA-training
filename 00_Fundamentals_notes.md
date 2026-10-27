@@ -12,9 +12,25 @@ Learning Objectives
     Enhance Python programming skills, focusing on NumPy and PyTorch basics
 
 3 Blue 1 Brown videos:
+
+Essence of linear algebra Chapter 1: Vectors
+
+In physics what defines a given vector is it's length and it's direction, you can move it's location and it's still the same vector. 
+In computer science vectors are ordered lists of numbers, a fancy word for lists.
+In mathematics, they try to combine both views and attempt to define the vector equations and operations, saved for later video.
+Geometric focus to this video, think of an arrow, and one in a graphical location rooted at the origin, then translate that visual over to the list of numbers.
+Focussing on 2D we have x and y with origin at (0, 0), with each incrememnt as 1.
+The coordinates of a vector are instructions for how to get from the tail to the tip. The vector always go through the original, and the coordinates are the points associated with the tip.
+In 3D, we still use the origin tails, but have a triplet defining the tip for [x, y, and z]
+Vector addition is defined as taking two vectors, both starting from  origin and ending at some tip. The sum of the two is equivalent to taking the tail of one vector and move it to the tip of the other. The resulting vector from the origin to the new tip of the second vector is the sum result.
+In list format we basically sum the matching terms inside of each vector, leading to x1 + x2, y1 + y2, etc.
+Multiplying a vector by a single term can produce results such as doubling it's length with 2, or reversing it's direction with -1, or reversing and shrinking it with -0.7, and so on.
+These single value multipliers that shrink, extend, and reverse the vector are called Scalars, and the process scaling.
+For lists we factor each vector component by the scalar, which obviously has the same result [3, 1] x 2 becomes [6, 2], which on the graphical representation becomes a double length vector.
+
 Deep Learning Chapter 1: But what is a neural network?
 
-Starts with the digit reading task, trivialised by the human brain, but complex when it comes to computing a solution to messier and messier versions of the problem.
+Starts with the digit reading task (think it's the MNIST dataset), trivialised by the human brain, but complex when it comes to computing a solution to messier and messier versions of the problem.
 Neural networks are made of layers, code is available to play with to test the digit recognition.
 Neural networks are inspired by the brain, so what are the neurons and how are they connected?
 In the example the neurons are the pixels of a written digit, each neuron holds an "activation" value between 0 and 1 which denotes the brightness of the pixel, or how activated the neuron is. These neurons make up the first layer of the network, one neuron per pixel, the input layer.
