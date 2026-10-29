@@ -1,8 +1,8 @@
-00: Fundamentals - Notes
+# 00: Fundamentals - Notes
 
-1: Core Concepts / Knowledge
+## 1: Core Concepts / Knowledge
 
-Learning Objectives
+## Learning Objectives
 
     Understand the structure and function of neural networks
     Learn essential linear algebra concepts like matrix operations and transformations
@@ -11,9 +11,9 @@ Learning Objectives
     Cover some foundational information theory concepts, such as entropy and KL divergence
     Enhance Python programming skills, focusing on NumPy and PyTorch basics
 
-3 Blue 1 Brown videos:
+## 3 Blue 1 Brown videos:
 
-Essence of linear algebra Chapter 1: Vectors
+### Essence of linear algebra Chapter 1: Vectors
 
 In physics what defines a given vector is it's length and it's direction, you can move it's location and it's still the same vector. 
 In computer science vectors are ordered lists of numbers, a fancy word for lists.
@@ -28,7 +28,7 @@ Multiplying a vector by a single term can produce results such as doubling it's 
 These single value multipliers that shrink, extend, and reverse the vector are called Scalars, and the process scaling.
 For lists we factor each vector component by the scalar, which obviously has the same result [3, 1] x 2 becomes [6, 2], which on the graphical representation becomes a double length vector.
 
-Essence of linear algebra Chapter 2: Linear combinations, span, and basis Vectors
+### Essence of linear algebra Chapter 2: Linear combinations, span, and basis Vectors
 
 Further breaking down the concept of vector coordinates we can think of each element of the coordinate pair as a scalar for the standard unit of measure in both the x and y direction.
 these single unit measures $$\hat{\imath} + \hat{\jmath}$$ as an addition of the scaled single unit vector along the x axis plus the scaled unit vector along the y axis, describes the vector coordinates as well.
@@ -44,7 +44,7 @@ For the examples of two vectors existing on the same line, or the same 2D plane 
 Similarly, if this is not the case then the vectors are "linearly independent".
 The basis of a vector space is a set of linearly independent vectors that span the full space.
 
-Essence of linear algebra Chapter 3: Linear transformations and matrices
+### Essence of linear algebra Chapter 3: Linear transformations and matrices
 
 Supposedly the topic which helps the rest of linear algebra click. The relationship between linear transformations and matrix multiplication.
 A way to think about why matrix multiplication works the way it does, rather than just memorise it.
@@ -63,11 +63,11 @@ A linear transformation is completely described by these four numbers (coordinat
 this is where we end up with the linear transformation function shown in school [x, y] * [[a, c][b, d]] = [ax + by, cx + dy]]
 Where the transformed versions of i hat and j hat are linearly dependent, we end up seeing a single line (in 3D the flat plane span of that transform), and so all vector part of that transformation converge onto that line.
 
-Essence of linear algebra Chapter 4: Matrix multiplication as composition
+### Essence of linear algebra Chapter 4: Matrix multiplication as composition
 
 
 
-Deep Learning Chapter 1: But what is a neural network?
+### Deep Learning Chapter 1: But what is a neural network?
 
 Starts with the digit reading task (think it's the MNIST dataset), trivialised by the human brain, but complex when it comes to computing a solution to messier and messier versions of the problem.
 Neural networks are made of layers, code is available to play with to test the digit recognition.
@@ -95,5 +95,5 @@ To simplify notation we represent each possible combination of inputs and weight
 It might be simpler to think of the entire network as a series of cascading functions, the network is a function that takes many inputs and spits out the output, where each neuron activation after input is a function of all of its inputs multiplied by weights through a sigmoid function etc. etc.
 Final notes talked about sigmoid functions, but most networks use ReLU (rectified linear unit) instead of the sigmoid, ReLU(a) = max(0, a), sigmoid learns slower than ReLU. I think this is where in code we will see the argMax funciton being used at this point in time.
 
-Deep Learning Chapter 2: Gradient descent, how neural networks learn.
+### Deep Learning Chapter 2: Gradient descent, how neural networks learn.
 
