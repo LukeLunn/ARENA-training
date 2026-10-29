@@ -53,6 +53,7 @@ So transformation implies we are shifting space through the operations we are pe
 Linear algebra restricts itself to linear transformations:
 - all lines remain lines without being malformed into curves
 - the origin remains fixed throughout the transformation
+
 In general we can think of linear transformations as keeping lines parallel and evenly spaced.
 So how do we describe these numerically?
 It turns out you only need the basis vectors (i hat and j hat)) to understand where any vector would end up.
