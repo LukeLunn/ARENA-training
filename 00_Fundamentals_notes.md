@@ -46,6 +46,25 @@ The basis of a vector space is a set of linearly independent vectors that span t
 
 Essence of linear algebra Chapter 3: Linear transformations and matrices
 
+Supposedly the topic which helps the rest of linear algebra click. The relationship between linear transformations and matrix multiplication.
+A way to think about why matrix multiplication works the way it does, rather than just memorise it.
+By transformation we essentially mean a function, but the better way to understand them is to think of them moving.
+So transformation implies we are shifting space through the operations we are performing.
+Linear algebra restricts itself to linear transformations:
+- all lines remain lines without being malformed into curves
+- the origin remains fixed throughout the transformation
+In general we can think of linear transformations as keeping lines parallel and evenly spaced.
+So how do we describe these numerically?
+It turns out you only need the basis vectors (i hat and j hat)) to understand where any vector would end up.
+the output of v (where it lands) is a linear combination of the scaled version of i hat and j hat (scaled by their resulting positions)
+[x, y] = x[where i hat lands] + y[where j hat lands]
+A linear transformation is completely described by these four numbers (coordinates of i hat landing and coordinates of j hat landing)
+this is where we end up with the linear transformation function shown in school [x, y] * [[a, c][b, d]] = [ax + by, cx + dy]]
+Where the transformed versions of i hat and j hat are linearly dependent, we end up seeing a single line (in 3D the flat plane span of that transform), and so all vector part of that transformation converge onto that line.
+
+Essence of linear algebra Chapter 4: Matrix multiplication as composition
+
+
 
 Deep Learning Chapter 1: But what is a neural network?
 
