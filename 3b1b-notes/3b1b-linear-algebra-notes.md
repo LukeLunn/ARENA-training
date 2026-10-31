@@ -55,5 +55,15 @@ Where the transformed versions of i hat and j hat are linearly dependent, we end
 Sometimes we may wish to describe the effect of applying multiple transformations, first one then another.
 In the example a rotation, then shear is applied, how do we describe the effect of doing these two tranformations?
 If both of these transformations are linear transformations then the resulting space of those two transformations is another linear tranformation in and of itself.
-This is referred to and the "composition" of the two tranformations applied.
+This is referred to as the "composition" of the two tranformations applied.
 The composition matrix that describes the composition transform is the product of the matrix that describes the rotation and the matrix that describes the shear.
+Multiple transforms uses function notation and so when two transforms are multiplied together to get their composition matrix, the "first transform" is the one on the right, the second on the left, so they are read right to left as with functions.
+When multiplying these transforms together we first find the location where i hat ends up (left column of the right matrix, multiplied by the left matrix, first value muliplied by the left column of the left matrix, second value by the right column of the left matrix)
+Then we need to determine where j hat ends up by doing the same process with the right hand column of the right matrix.
+This is then displayed in the video through algebraic symbols in the traditional fashion, but remember what this represents, one transform followed by another as a shifting of geometric space.
+The example of determining whether it matters which order we multiply in was provided. We can imagine the transformations to determine that order matters, without needing to compute anything.
+We can prove associativity through just understanding that the order of multiplications doesn't really change when we imagine the transforms.
+
+## Essence of linear algebra Chapter 5: Three-dimensional linear transformations
+
+
