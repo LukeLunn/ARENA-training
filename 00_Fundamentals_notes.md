@@ -65,6 +65,11 @@ Where the transformed versions of i hat and j hat are linearly dependent, we end
 
 ### Essence of linear algebra Chapter 4: Matrix multiplication as composition
 
+Sometimes we may wish to describe the effect of applying multiple transformations, first one then another.
+In the example a rotation, then shear is applied, how do we describe the effect of doing these two tranformations?
+If both of these transformations are linear transformations then the resulting space of those two transformations is another linear tranformation in and of itself.
+This is referred to and the "composition" of the two tranformations applied.
+The composition matrix that describes the composition transform is the product of the matrix that describes the rotation and the matrix that describes the shear.
 
 
 ### Deep Learning Chapter 1: But what is a neural network?
