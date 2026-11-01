@@ -66,4 +66,12 @@ We can prove associativity through just understanding that the order of multipli
 
 ## Essence of linear algebra Chapter 5: Three-dimensional linear transformations
 
+Most of the series works in two dimensions to display the concepts without muddying the waters of visualisation.
+The rules remain the same as in we are trying to keep the grid lines straight, paralell, and evenly spaced. Also, the 3 standard basis vectors explain where a transform goes entirely.
+Now we are working with 3x3 matrices and using k hat as the third basis vector.
+The reasoning is almost identical to two dimensions when determining where a given vector would end up after the transformation.
+Best way to think about multiplicaiton is again to consider the right vector as having the basis vector coordinates, column 1 as i hat, column 2 as j hat, column 3 as k hat, and then multiply each of those columns by the matrix on the left for two 3x3 matrices.
+
+## Essence of linear algebra Chapter 6: The determinant
+
 
