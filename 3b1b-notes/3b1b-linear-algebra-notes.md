@@ -82,5 +82,12 @@ This can also mean the determinant is zero when the scaling causes the space to 
 Determinants can also be negative, so what does that mean?
 Negative determinants are flipping or inverting the space, the y axis unit vector changes from being on the left of the x axis unit vector, to being on the right for example.
 Whenever space is inverted, the determinant will be negative, but the magnitude still tells you how much it is scaled by.
+So in 2D if we imagine the scenario where i gets closer and closer to j, everything squishes so the determinant gets smaller and smaller, after 0 it flips and it makes sense for the determinant to then move into the negative after that flip.
+For 3D it starts to make sense how volumes as well as areas are scaled. 
+We can shift and scaled the paralellipiped of i, j, k which changes and squishes a 3D cube, with extreme cases possible where the vectors falls onto the same plane, line, or single dot where the columns are linearly dependent.
+Negative determinants in 3D are more difficult to notice visually but the orientation changes.
+It may be worth understanding the computation of determinants, suggested to simply try the computation with some examples until you get it down, however might not be fully needed for my purposes.
+
+## Essence of linear algebra Chapter 7: Inverse matrices, column space and null space
 
 
