@@ -74,4 +74,13 @@ Best way to think about multiplicaiton is again to consider the right vector as 
 
 ## Essence of linear algebra Chapter 6: The determinant
 
+Looking at various transformations of the basis vectors, we can see that they create an area in 2D space if we follow through their lines to join them as quarilaterals.
+The hint here is that understanding the area and dimensions of the square here will tell us everything we need to know about the transformation, including in other spaces.
+Also, any space that is not a grid square can be represented by arbitrarily small squares, the smaller they get the more accurately they can approximate the shape.
+The absolute factor by which an area is scaled in these transformations is called the Determinant.
+This can also mean the determinant is zero when the scaling causes the space to be squished onto a single line, or into a point. Essentially when the space is moved into a smaller dimension.
+Determinants can also be negative, so what does that mean?
+Negative determinants are flipping or inverting the space, the y axis unit vector changes from being on the left of the x axis unit vector, to being on the right for example.
+Whenever space is inverted, the determinant will be negative, but the magnitude still tells you how much it is scaled by.
+
 
